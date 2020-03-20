@@ -11,11 +11,13 @@ dependencies:
   - matplotlib
   - jupyter
   - ipython
+  - jupyterlab
   # Put any conda dependencies here
 
   - pip:
     # Put any pip dependencies here (and no conda ones anywhere below)
-
+    - eurostat
+    - ratelim
   # Tooling requirements (don't edit)
     - tqdm
     - pyyaml
